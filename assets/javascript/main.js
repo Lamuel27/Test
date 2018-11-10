@@ -84,139 +84,111 @@ $(document).ready(function () {
   
     let characters = [
       {
-        name: 'Ant Man',
+        name: 'ANT-MAN (SCOTT LANG)',
         imageUrl: "http://thesource.com/wp-content/uploads/2015/07/ant-man1.jpg",
       },
       {
-        name: 'Black Panther',
+        name: "BLACK PANTHER (T'CHALLA)",
         imageUrl: "https://cdn.vox-cdn.com/thumbor/SQnBpaoYz4vaIZ71gY_Oho2izjI=/0x0:1056x439/1200x800/filters:focal(495x39:663x207)/cdn.vox-cdn.com/uploads/chorus_image/image/58986389/Screen_Shot_2018_01_11_at_3.47.24_PM.0.png",
       },
       {
-        name: 'Black Widow',
+        name: 'BLACK WIDOW (NATASHA ROMANOFF)',
         imageUrl: "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Black-Widow-movie-700x300.jpg",
       },
       {
-        name: 'Bucky',
+        name: 'WINTER SOLDIER (BUCKY BARNES)',
         imageUrl: "https://static.tvtropes.org/pmwiki/pub/images/mcu_bucky_40s.png",
       },
       {
-        name: 'Captain America',
+        name: 'CAPTAIN AMERICA (STEVE ROGERS)',
         imageUrl: "https://onthegoinmco.com/wp-content/uploads/2013/11/Cap.jpg",
       },
       {
-        name: 'Captain Marvel',
+        name: 'CAPTAIN MARVEL (CAROL DANVERS)',
         imageUrl: "https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2018/06/15/15/brie-larson-captain-marvel-0.jpg",
       },
       {
-        name: 'Deadpool',
+        name: 'DEADPOOL (WADE WILSON)',
         imageUrl: "http://specials-images.forbesimg.com/imageserve/577fe96da7ea436bd18c3ef7/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=15&cropY2=759",
       },
       {
-        name: 'Ant Man',
-        imageUrl: "http://thesource.com/wp-content/uploads/2015/07/ant-man1.jpg",
-      },
-      {
-        name: 'Black Panther',
-        imageUrl: "https://cdn.vox-cdn.com/thumbor/SQnBpaoYz4vaIZ71gY_Oho2izjI=/0x0:1056x439/1200x800/filters:focal(495x39:663x207)/cdn.vox-cdn.com/uploads/chorus_image/image/58986389/Screen_Shot_2018_01_11_at_3.47.24_PM.0.png",
-      },
-      {
-        name: 'Black Widow',
-        imageUrl: "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Black-Widow-movie-700x300.jpg",
-      },
-      {
-        name: 'Bucky',
-        imageUrl: "https://static.tvtropes.org/pmwiki/pub/images/mcu_bucky_40s.png",
-      },
-      {
-        name: 'Captain America',
-        imageUrl: "https://onthegoinmco.com/wp-content/uploads/2013/11/Cap.jpg",
-      },
-      {
-        name: 'Captain Marvel',
-        imageUrl: "https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2018/06/15/15/brie-larson-captain-marvel-0.jpg",
-      },
-      {
-        name: 'Deadpool',
-        imageUrl: "https://i2-prod.mirror.co.uk/incoming/article6809012.ece/ALTERNATES/s615b/Ryan-Reynolds.jpg",
-      },
-      {
-        name: 'Hank Pym',
+        name: 'HANK PYM',
         imageUrl: "http://digitalspyuk.cdnds.net/18/25/1280x640/landscape-1529582593-hank-pym-michael-douglas-ant-man.jpg",
       },
       {
-        name: 'Hawkeye',
+        name: 'HAWKEYE (CLINT BARTON)',
         imageUrl: "https://s-media-cache-ak0.pinimg.com/736x/ac/12/0e/ac120efa6e318b9f6623d218165d084e--marvel-movies-avengers-marvel.jpg",
       },
       {
-        name: 'Hela',
+        name: 'HELA',
         imageUrl: "http://media.comicbook.com/2017/04/cate-blanchette-hela-thor-ragnarok-2-989388.jpg",
       },
       {
-        name: 'The Hulk',
+        name: 'HULK (BRUCE BANNER)',
         imageUrl: "http://www.thefamouspeople.com/profiles/images/mark-ruffalo-3.jpg",
       },
       {
-        name: 'Iron Man',
+        name: 'IRON MAN (TONY STARK)',
         imageUrl: "http://beardclinic.com/wp-content/uploads/2015/04/tony-stark-beard.jpg",
       },
       {
-        name: 'Iron Monger',
+        name: 'IRON MONGER',
         imageUrl: "https://s-media-cache-ak0.pinimg.com/564x/98/50/07/9850076033edf3fb33fad68ea4f47b3b.jpg",
       },
       {
-        name: 'Jessica Jones',
+        name: 'JESSICA JONES',
         imageUrl: "https://tribzap2it.files.wordpress.com/2015/11/krysten-ritter-jessica-jones-netflix.jpg",
       },
       {
-        name: 'Loki',
+        name: 'LOKI',
         imageUrl: "http://img2.wikia.nocookie.net/__cb20130927172049/marvelmovies/images/0/0a/Loki_evil-grin.jpg",
       },
       {
-        name: 'Nakia',
+        name: 'NAKIA',
         imageUrl: "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/02/Black_Panther_Textless_Character_Poster_10.jpg/revision/latest/scale-to-width-down/350?cb=20171201052655",
       },
       {
-        name: 'Nick Fury',
+        name: 'NICK FURY',
         imageUrl: "http://img1.looper.com/img/gallery/nick-fury-reportedly-will-appear-in-captain-marvel/intro-1499372003.jpg",
       },
       {
-        name: 'Professor X',
+        name: 'PROFESSOR X',
         imageUrl: "http://cdn-static.denofgeek.com/sites/denofgeek/files/4/43/professor_xavier.jpg",
       },
       {
-        name: 'Quick Silver',
+        name: 'QUICKSILVER',
         imageUrl: "https://4.bp.blogspot.com/-6QSMJuB79Is/VwGz9qoiGYI/AAAAAAAAA8s/9t2TX4WbW2saUrMn3YTB3lCUI-BVPS2vg/s1600/Quicksilver.jpg",
       },
       {
-        name: 'War Machine',
+        name: 'WAR MACHINE (JAMES RHODES)',
         imageUrl: "https://img.char.tw/uploads/2017/08/1502986591-7ba69ad0703ea5988687c871334c7e80.jpg",
       },
       {
-        name: 'Scarlet Witch',
+        name: 'SCARLET WITCH (WANDA MAXIMOFF)',
         imageUrl: "http://assets1.ignimgs.com/2015/03/27/scarlet-witch-1280jpg-3bd533_1280w.jpg",
       },
       {
-        name: 'Spider-Man',
+        name: 'SPIDER-MAN (PETER PARKER)',
         imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2017/06/Spider-Man-Homecoming-Tom-Holland-Interview.jpg",
       },
       {
-        name: 'Star Lord',
+        name: 'STAR-LORD (PETER QUILL)',
         imageUrl: "https://d3rm69wky8vagu.cloudfront.net/photos/original/1.202845.jpg",
       },
       {
-        name: 'The Wasp',
+        name: 'WASP (JANET VAN DYNE)',
         imageUrl: "https://aws.boxofficebuz.com/actors/images/evangeline-lilly_212538.jpg",
       },
       {
-        name: 'Thor',
+        name: 'THOR (THOR ODINSON)',
         imageUrl: "http://images4.fanpop.com/image/photos/22100000/Thor-pics-thor-2011-22155397-1452-800.jpg",
       },
       {
-        name: 'Valkyrie',
+        name: 'VALKYRIE (SAMANTHA PARRINGTON)',
         imageUrl: "http://cdn.collider.com/wp-content/uploads/2017/10/thor-ragnarok-images-valkyrie.jpg",
       },
       {
-        name: 'Wolverine',
+        name: 'WOLVERINE (JAMES HOWLETT)',
         imageUrl: "http://ofcoursevegan.files.wordpress.com/2013/07/hugh-jackman.jpg",
       },
   // {
