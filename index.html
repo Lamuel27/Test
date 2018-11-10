@@ -76,15 +76,14 @@
                     <div class="col-sm">
                         <div class="card" style="width: 18rem;">
 
-                            <div class="card-body">
+                            <div class="card-body" style="height: 296px">
 
 
-                                <h5 id="character" class="card-title">Captain America</h5>
-                                <h6 id="superPower" class="card-subtitle mb-2 text-muted">Super Soldier</h6>
-                                <p id="char-bio" class="card-text">Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Bio link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <h5 id="char-title" class="card-title">Captain America</h5>
+                                <h6 id="superPower" class="card-subtitle mb-2 text-muted"></h6>
+                                <p id="char-bio" class="card-text">Bio not available for this super hero.</p>
+                                <!-- <a href="#" class="card-link">Bio link</a> -->
+                                <!-- <a href="#" class="card-link">Another link</a> -->
                             </div>
                         </div>
                     </div>
@@ -100,15 +99,27 @@
 
                 <!-- <img id='photo'> -->
             </form>
-            <button id="btn" style="margin: 20px;" type="button" class="btn btn-primary">Find a Match!</button>
-            <button style="margin: 20px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
-                Click here to view past results
-            </button>
-            <div class="collapse" id="collapseExample">
+            <div class="col-sm-4">
+                <button id="btn" style="margin: 20px;" type="button" class="btn btn-dark">Find a Match!</button>
+        </div>
+
+        <div class="col-sm-4">
+
+        <button style="margin: 20px;" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Click here to view past results
+        </button>
+        <div class="collapse" id="collapseExample">
                 <div class="card card-body">
-                    <ul class="list-group" id="resultsList">
-                    </ul>
+                    <table class="table table-sm table-hover" id="resultsList">
+                        <thead>
+                            <tr>
+                                <th scope="col">Recent Searches</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
