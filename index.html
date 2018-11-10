@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marvel Ancestry.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/box-shadows.min.css"> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.19.1/moment.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/javascript/mainkob.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- <script type="module" src="assets/javascript/object.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+
+
+    <style>
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
+</head>
+
+<body style="margin-right: auto; margin-left: auto;">
+    <div class="container" style="height:295px;">
+        <div style="background-color: black; text-align: center; color: white;" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">
+                    <img src="assets/images/marvel.jpg" style="width: 270px" alt="Italian Trulli">
+                </h1>
+                <h1>ancestry.com</h1>
+                <p class="lead">Find out which Marvel hero you are related to!</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+
+                        <img src="" id="prof-pic" class="card-img-top bShadow-inset" style="height: 230px;" alt="Card image cap">
+
+
+                        <div class="card-body">
+                            <p class="card-text">A picture of you!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card bShadow-inset" style="width: 18rem;">
+                            <img src="" id="marvel-anc" class="card-img-top" style="height: 230px;" alt="Card image cap">
+                            <div class="card-body">
+                                <p id="character" class="card-text">Your Marvel Ancestor!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+
+
+                                <h5 id="character" class="card-title">Captain America</h5>
+                                <h6 id="superPower" class="card-subtitle mb-2 text-muted">Super Soldier</h6>
+                                <p id="char-bio" class="card-text">Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Bio link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <input type="text" id="url" />
+                <!--text input-->
+                <!-- <input type="button" id="btn" value="show image" /> -->
+                <!-- <input type='file' /> -->
+                <!-- <img id="myImg" src="#" /> -->
+                <!-- <div> -->
+
+                <!-- <img id='photo'> -->
+            </form>
+            <button id="btn" style="margin: 20px;" type="button" class="btn btn-primary">Find a Match!</button>
+            <button style="margin: 20px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Click here to view past results
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul class="list-group" id="resultsList">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
