@@ -168,7 +168,7 @@ $(document).ready(function () {
         imageUrl: "http://assets1.ignimgs.com/2015/03/27/scarlet-witch-1280jpg-3bd533_1280w.jpg",
       },
       {
-        name: 'SPIDER-MAN (PETER PARKER)',
+        name: 'Spider-Man',
         imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2017/06/Spider-Man-Homecoming-Tom-Holland-Interview.jpg",
       },
       {
