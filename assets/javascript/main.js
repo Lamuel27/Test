@@ -329,50 +329,15 @@ $(document).ready(function () {
   
   
   
-    /////////////////////////////////////////////////////
-    // pushing past results from Firebase to the table //
-    /////////////////////////////////////////////////////
-  
-    function logActivity(hero) {
-  
-      //local variables to hold hero name and date
-      var heroName = hero
-      var matchDate = moment().format("MM/DD/YYYY");
-  
-      var newMatch = {
-        hero: heroName,
-        date: matchDate
-      };
-  
-      // Uploads employee data to the database
-      database.ref().push(newMatch);
-  
-      // Create Firebase event for adding the search to the databas
-      database.ref().on("child_added", function (childSnapshot) {
-  
-        //capture the childsnapshot values
-        var lastHeroName = childSnapshot.val().hero;
-        var lastMatchDate = childSnapshot.val().date;
-  
-        //create a new row i the table
-        var newRow = $("<tr>").append(
-          $("<td>").text("On " + lastMatchDate + " you were matched with " + lastHeroName)
-        );
-  
-        // Append the new row to the train table
-        $("#resultsList > tbody").append(newRow);
-  
-      });
-  
-    }
+    
   /////////////////////////////////////////////////////
 // pushing past results from Firebase to the table //
 /////////////////////////////////////////////////////
 
-function logActivity(hero) {
+function logActivity(heroName) {
 
     //local variables to hold hero name and date
-    var heroName = hero
+    var heroName = heroName
     var matchDate = moment().format("MM/DD/YYYY");
   
     var newMatch = {
