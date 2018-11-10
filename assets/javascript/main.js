@@ -65,22 +65,22 @@ setInterval(updateGradient, 10);
 //Firebase configuration //
 ///////////////////////////
 $(document).ready(function () {
-    var config = {
-        apiKey: "AIzaSyCl1mx1b_jeLmyUHNFc9-qwXznNdXXQbqw",
-        authDomain: "lamuelapp.firebaseapp.com",
-        databaseURL: "https://lamuelapp.firebaseio.com",
-        projectId: "lamuelapp",
-        storageBucket: "lamuelapp.appspot.com",
-        messagingSenderId: "33983257150"
-      };
     // var config = {
-    //     apiKey: "AIzaSyBMxbRavlaUZpJQWiMiCoFuT1hT_un6iQ0",
-    //     authDomain: "ballmer-peak-project1.firebaseapp.com",
-    //     databaseURL: "https://ballmer-peak-project1.firebaseio.com",
-    //     projectId: "ballmer-peak-project1",
-    //     storageBucket: "",
-    //     messagingSenderId: "520183238866"
-    // };
+    //     apiKey: "AIzaSyCl1mx1b_jeLmyUHNFc9-qwXznNdXXQbqw",
+    //     authDomain: "lamuelapp.firebaseapp.com",
+    //     databaseURL: "https://lamuelapp.firebaseio.com",
+    //     projectId: "lamuelapp",
+    //     storageBucket: "lamuelapp.appspot.com",
+    //     messagingSenderId: "33983257150"
+    //   };
+    var config = {
+        apiKey: "AIzaSyBMxbRavlaUZpJQWiMiCoFuT1hT_un6iQ0",
+        authDomain: "ballmer-peak-project1.firebaseapp.com",
+        databaseURL: "https://ballmer-peak-project1.firebaseio.com",
+        projectId: "ballmer-peak-project1",
+        storageBucket: "",
+        messagingSenderId: "520183238866"
+    };
 
     firebase.initializeApp(config);
 
@@ -273,6 +273,7 @@ $(document).ready(function () {
         $("#marvel-anc").attr("src", heroImage);
 
         getDescription(superHero);
+        logActivity(superHero);
     }
 
     //   displaying the uploaded image
@@ -339,10 +340,10 @@ $(document).ready(function () {
     // pushing past results from Firebase to the table //
     /////////////////////////////////////////////////////
 
-    function logActivity(heroName) {
+    function logActivity(hero) {
 
         //local variables to hold hero name and date
-        var heroName = heroName
+        var heroName = hero
         var matchDate = moment().format("MM/DD/YYYY");
 
         var newMatch = {
