@@ -141,7 +141,7 @@ $(document).ready(function () {
             imageUrl: "https://darkxmatters.files.wordpress.com/2018/09/f.jpeg",
         },
         {
-            name: 'Vulture',
+            name: 'Vulture (Adrian Toomes)',
             imageUrl: "https://peopledotcom.files.wordpress.com/2017/01/michael-keaton-0-2000.jpg",
         },
         {
@@ -198,18 +198,18 @@ $(document).ready(function () {
         },
         {
             name: 'STAR-LORD (PETER QUILL)',
-            imageUrl: "https://d3rm69wky8vagu.cloudfront.net/photos/original/1.202845.jpg",
+            imageUrl: "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2017-04/chris_pratt_1280_520071696.jpg?itok=sCDyII7a",
         },
         {
             name: 'Wasp',
-            imageUrl: "https://aws.boxofficebuz.com/actors/images/evangeline-lilly_212538.jpg",
+            imageUrl: "http://fanworld.co/wp-content/uploads/2015/12/xEvangeline_Lilly.jpeg.pagespeed.ic.UaXh4y2fFw.jpg",
         },
         {
             name: 'Thor',
             imageUrl: "http://images4.fanpop.com/image/photos/22100000/Thor-pics-thor-2011-22155397-1452-800.jpg",
         },
         {
-            name: 'Valkyrie',
+            name: 'Valkyrie (Samantha Parrington)',
             imageUrl: "http://cdn.collider.com/wp-content/uploads/2017/10/thor-ragnarok-images-valkyrie.jpg",
         },
         {
