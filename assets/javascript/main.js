@@ -66,13 +66,21 @@ setInterval(updateGradient, 10);
 ///////////////////////////
 $(document).ready(function () {
     var config = {
-        apiKey: "AIzaSyBMxbRavlaUZpJQWiMiCoFuT1hT_un6iQ0",
-        authDomain: "ballmer-peak-project1.firebaseapp.com",
-        databaseURL: "https://ballmer-peak-project1.firebaseio.com",
-        projectId: "ballmer-peak-project1",
-        storageBucket: "",
-        messagingSenderId: "520183238866"
-    };
+        apiKey: "AIzaSyCl1mx1b_jeLmyUHNFc9-qwXznNdXXQbqw",
+        authDomain: "lamuelapp.firebaseapp.com",
+        databaseURL: "https://lamuelapp.firebaseio.com",
+        projectId: "lamuelapp",
+        storageBucket: "lamuelapp.appspot.com",
+        messagingSenderId: "33983257150"
+      };
+    // var config = {
+    //     apiKey: "AIzaSyBMxbRavlaUZpJQWiMiCoFuT1hT_un6iQ0",
+    //     authDomain: "ballmer-peak-project1.firebaseapp.com",
+    //     databaseURL: "https://ballmer-peak-project1.firebaseio.com",
+    //     projectId: "ballmer-peak-project1",
+    //     storageBucket: "",
+    //     messagingSenderId: "520183238866"
+    // };
 
     firebase.initializeApp(config);
 
