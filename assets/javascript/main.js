@@ -95,43 +95,43 @@ $(document).ready(function () {
             name: 'Daredevil',
             imageUrl: "https://www.syfy.com/sites/syfy/files/styles/1200x1200/public/2017/08/daredevil-thedefenders.jpg?itok=TYRwoEpI&timestamp=1503426858",
         },
-        //   {
-        //     name: "Black Panther",
-        //     imageUrl: "https://cdn.vox-cdn.com/thumbor/SQnBpaoYz4vaIZ71gY_Oho2izjI=/0x0:1056x439/1200x800/filters:focal(495x39:663x207)/cdn.vox-cdn.com/uploads/chorus_image/image/58986389/Screen_Shot_2018_01_11_at_3.47.24_PM.0.png",
-        //   },
-        //   {
-        //     name: 'Black Widow',
-        //     imageUrl: "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Black-Widow-movie-700x300.jpg",
-        //   },
-        //   {
-        //     name: 'Bucky Barnes',
-        //     imageUrl: "https://static.tvtropes.org/pmwiki/pub/images/mcu_bucky_40s.png",
-        //   },
+          {
+            name: "Black Panther",
+            imageUrl: "https://cdn.vox-cdn.com/thumbor/SQnBpaoYz4vaIZ71gY_Oho2izjI=/0x0:1056x439/1200x800/filters:focal(495x39:663x207)/cdn.vox-cdn.com/uploads/chorus_image/image/58986389/Screen_Shot_2018_01_11_at_3.47.24_PM.0.png",
+          },
+          {
+            name: 'Black Widow',
+            imageUrl: "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Black-Widow-movie-700x300.jpg",
+          },
+          {
+            name: 'Bucky Barnes',
+            imageUrl: "https://static.tvtropes.org/pmwiki/pub/images/mcu_bucky_40s.png",
+          },
         {
             name: 'Captain America',
             imageUrl: "https://onthegoinmco.com/wp-content/uploads/2013/11/Cap.jpg",
         },
-        //   {
-        //     name: 'Captain Marvel',
-        //     imageUrl: "https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2018/06/15/15/brie-larson-captain-marvel-0.jpg",
-        //   },
-        //   {
-        //     name: 'Deadpool',
-        //     imageUrl: "http://specials-images.forbesimg.com/imageserve/577fe96da7ea436bd18c3ef7/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=15&cropY2=759",
-        //   },
+          {
+            name: 'Captain Marvel',
+            imageUrl: "https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2018/06/15/15/brie-larson-captain-marvel-0.jpg",
+          },
+          {
+            name: 'Deadpool',
+            imageUrl: "http://specials-images.forbesimg.com/imageserve/577fe96da7ea436bd18c3ef7/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=15&cropY2=759",
+          },
 
-        // {
-        //     name: 'Hank Pym',
-        //     imageUrl: "http://digitalspyuk.cdnds.net/18/25/1280x640/landscape-1529582593-hank-pym-michael-douglas-ant-man.jpg",
-        // },
-        // {
-        //     name: 'Hawkeye',
-        //     imageUrl: "https://s-media-cache-ak0.pinimg.com/736x/ac/12/0e/ac120efa6e318b9f6623d218165d084e--marvel-movies-avengers-marvel.jpg",
-        // },
-        // {
-        //     name: 'Hela',
-        //     imageUrl: "http://media.comicbook.com/2017/04/cate-blanchette-hela-thor-ragnarok-2-989388.jpg",
-        // },
+        {
+            name: 'Hank Pym',
+            imageUrl: "http://digitalspyuk.cdnds.net/18/25/1280x640/landscape-1529582593-hank-pym-michael-douglas-ant-man.jpg",
+        },
+        {
+            name: 'Hawkeye',
+            imageUrl: "https://s-media-cache-ak0.pinimg.com/736x/ac/12/0e/ac120efa6e318b9f6623d218165d084e--marvel-movies-avengers-marvel.jpg",
+        },
+        {
+            name: 'Hela',
+            imageUrl: "http://media.comicbook.com/2017/04/cate-blanchette-hela-thor-ragnarok-2-989388.jpg",
+        },
         {
             name: 'Hulk',
             imageUrl: "http://www.thefamouspeople.com/profiles/images/mark-ruffalo-3.jpg",
@@ -164,42 +164,42 @@ $(document).ready(function () {
             name: 'Thanos',
             imageUrl: "https://pixel.nymag.com/imgs/daily/vulture/2018/04/25/25-thanos.w700.h700.jpg",
         },
-        // {
-        //     name: 'Iron Monger',
-        //     imageUrl: "https://s-media-cache-ak0.pinimg.com/564x/98/50/07/9850076033edf3fb33fad68ea4f47b3b.jpg",
-        // },
-        // {
-        //     name: 'Jessica Jones',
-        //     imageUrl: "https://tribzap2it.files.wordpress.com/2015/11/krysten-ritter-jessica-jones-netflix.jpg",
-        // },
-        // {
-        //     name: 'Loki',
-        //     imageUrl: "http://img2.wikia.nocookie.net/__cb20130927172049/marvelmovies/images/0/0a/Loki_evil-grin.jpg",
-        // },
-        // {
-        //     name: 'Nakia',
-        //     imageUrl: "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/02/Black_Panther_Textless_Character_Poster_10.jpg/revision/latest/scale-to-width-down/350?cb=20171201052655",
-        // },
-        // {
-        //     name: 'Nick Fury',
-        //     imageUrl: "http://img1.looper.com/img/gallery/nick-fury-reportedly-will-appear-in-captain-marvel/intro-1499372003.jpg",
-        // },
-        // {
-        //     name: 'Professor X',
-        //     imageUrl: "http://cdn-static.denofgeek.com/sites/denofgeek/files/4/43/professor_xavier.jpg",
-        // },
-        // {
-        //     name: 'Quick Silver',
-        //     imageUrl: "https://4.bp.blogspot.com/-6QSMJuB79Is/VwGz9qoiGYI/AAAAAAAAA8s/9t2TX4WbW2saUrMn3YTB3lCUI-BVPS2vg/s1600/Quicksilver.jpg",
-        // },
-        // {
-        //     name: 'War Machine',
-        //     imageUrl: "https://img.char.tw/uploads/2017/08/1502986591-7ba69ad0703ea5988687c871334c7e80.jpg",
-        // },
-        // {
-        //     name: 'Scarlet Witch',
-        //     imageUrl: "http://assets1.ignimgs.com/2015/03/27/scarlet-witch-1280jpg-3bd533_1280w.jpg",
-        // },
+        {
+            name: 'Iron Monger',
+            imageUrl: "https://s-media-cache-ak0.pinimg.com/564x/98/50/07/9850076033edf3fb33fad68ea4f47b3b.jpg",
+        },
+        {
+            name: 'Jessica Jones',
+            imageUrl: "https://tribzap2it.files.wordpress.com/2015/11/krysten-ritter-jessica-jones-netflix.jpg",
+        },
+        {
+            name: 'Loki',
+            imageUrl: "http://img2.wikia.nocookie.net/__cb20130927172049/marvelmovies/images/0/0a/Loki_evil-grin.jpg",
+        },
+        {
+            name: 'Nakia',
+            imageUrl: "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/02/Black_Panther_Textless_Character_Poster_10.jpg/revision/latest/scale-to-width-down/350?cb=20171201052655",
+        },
+        {
+            name: 'Nick Fury',
+            imageUrl: "http://img1.looper.com/img/gallery/nick-fury-reportedly-will-appear-in-captain-marvel/intro-1499372003.jpg",
+        },
+        {
+            name: 'Professor X',
+            imageUrl: "http://cdn-static.denofgeek.com/sites/denofgeek/files/4/43/professor_xavier.jpg",
+        },
+        {
+            name: 'Quick Silver',
+            imageUrl: "https://4.bp.blogspot.com/-6QSMJuB79Is/VwGz9qoiGYI/AAAAAAAAA8s/9t2TX4WbW2saUrMn3YTB3lCUI-BVPS2vg/s1600/Quicksilver.jpg",
+        },
+        {
+            name: 'War Machine',
+            imageUrl: "https://img.char.tw/uploads/2017/08/1502986591-7ba69ad0703ea5988687c871334c7e80.jpg",
+        },
+        {
+            name: 'Scarlet Witch',
+            imageUrl: "http://assets1.ignimgs.com/2015/03/27/scarlet-witch-1280jpg-3bd533_1280w.jpg",
+        },
         {
             name: 'Spider-Man',
             imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2017/06/Spider-Man-Homecoming-Tom-Holland-Interview.jpg",
