@@ -259,6 +259,7 @@ $(document).ready(function () {
 
                 }
             }
+            $.getJSON('http://cors.io/?https://lamuel27.github.io/Test?format=json', function(){});
             $.ajax(settings).then(function (response) {
                 console.log(response)
                 if (response.confidence > max) {
